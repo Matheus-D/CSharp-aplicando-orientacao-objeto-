@@ -6,7 +6,6 @@
     {
         Nome = nome;
     }
-
     public string Nome { get; }
     public int DuracaoTotal => musicas.Sum(m => m.Duracao);
 
