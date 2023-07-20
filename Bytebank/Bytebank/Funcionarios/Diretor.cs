@@ -1,21 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Bytebank.Funcionarios
 {
-    public class Funcionario
+    public class Diretor
     {
-        private int _tipo;
         public string Nome { get; set; }
         public string CPF { get; set; }
         public double Salario { get; set; }
 
         public double GetBonificacao()
         {
-            return Salario * 0.10;
+            return Salario;
         }
     }
 }
